@@ -1,0 +1,8 @@
+def check(s):
+    if s.endswith("ab"):
+        print("Accepted")
+    else:
+        print("Rejected")
+
+s = input("Enter string: ")
+check(s)
