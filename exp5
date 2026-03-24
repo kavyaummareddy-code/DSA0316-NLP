@@ -1,0 +1,7 @@
+from nltk.stem import PorterStemmer
+ps = PorterStemmer()
+
+words = input("Enter words separated by space: ").split()
+
+for w in words:
+    print(ps.stem(w))
