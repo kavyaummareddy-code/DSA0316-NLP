@@ -1,0 +1,4 @@
+from nltk import bigrams
+
+text = input("Enter sentence: ").split()
+print(list(bigrams(text)))
